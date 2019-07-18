@@ -1,0 +1,9 @@
+N2,Argon,NH3 # Species name or formula in the mixture (Name, in IUPAC form or common form or a synonym registered in PubChem, or CAS number)
+0.794,0.15268,0.0533 # Mass fraction for each species
+None #0.015342 # Time of beginning of compression [s] (if "None" without quote is written then detected automatically)
+None #0.05 # Time of end of compression [s] (if "None" without quote is written then detected automatically)
+2.042035e-05 # Clearance volume at top dead center including dead volumes but crevices volume not included [m3]
+5.16e-6 # Volume of the crevices (not including other dead volume) [m3]
+0.025 # Radius of the combustion chamber [m]
+332.38 # Initial temperature [K]
+0.3 # Stroke [m] the position measurement will be scaled to fit the provided stroke in case of small deviation
