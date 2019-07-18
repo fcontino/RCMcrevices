@@ -34,8 +34,8 @@ The ratio between the volume of the crevices and the volume needed to absorb the
 Details of the implementation are provided in the following article:
 N. Bourgeois, H. Jeanmart, G. Winckelmans, O. Lamberts, F. Contino
 
-How to ensure the interpretability of experimental data in Rapid Compression Machines? A method to validate piston crevice designs
-Combustion and Flame, 2018
+[How to ensure the interpretability of experimental data in Rapid Compression Machines? A method to validate piston crevice designs
+Combustion and Flame, 2018](https://www.sciencedirect.com/science/article/abs/pii/S0010218018304279)
 
 ## Contributors to this script: 
 
