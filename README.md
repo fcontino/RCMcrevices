@@ -20,15 +20,12 @@ Inputs to the script:
     |_radius of the combustion chamber (m)
     |_temperature at the beginning of compression (K)
     |_Stroke (m), if the stroke is obtained from the position vector, then indicate 0
-
-Output: The ratio between the volume of the crevices and the volume needed to absorb
-the boundary layer. The ratio should be bigger than 1 for the crevices to be effective
+Output: The ratio between the volume of the crevices and the volume needed to absorb the boundary layer. The ratio should be bigger than 1 for the crevices to be effective.
 
 Details of the implementation are provided in the following article:
 N. Bourgeois, H. Jeanmart, G. Winckelmans, O. Lamberts, F. Contino
+
 How to ensure the interpretability of experimental data in Rapid Compression Machines? A method to validate piston crevice designs
 Combustion and Flame, 2018
 
-Contributors to this script:
-N. Bourgeois, M. Pochet, F. Contino
-
+Contributors to this script: N. Bourgeois, M. Pochet, F. Contino
