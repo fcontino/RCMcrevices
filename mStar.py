@@ -28,11 +28,23 @@
 #
 
 import numpy as np
-import pandas as pd
+try:
+    import pandas as pd
+except ImportError:
+    print("- Error: Module pandas not found.\n")
+    print(" Please install it using your favourite library manager.\n")
+    print(" Alternatively, you can run command: python -m pip install --upgrade pandas\n")
+
 import scipy.integrate as integrate
 from scipy.signal import savgol_filter
 import math
-from thermo.chemical import Mixture
+try: 
+    from thermo.chemical import Mixture
+except ImportError:
+    print("- Error: Module thermo not found.\n")
+    print(" Please install it using your favourite library manager.\n")
+    print(" Alternatively, you can run command: python -m pip install --upgrade thermo\n")
+
 import sys
 import warnings
 import matplotlib.pyplot as plt
@@ -173,4 +185,4 @@ def main(csvFile,inputFile):
 		print("\n Your crevices seem to be big enough.")
 
 
-main("csfFile.csv","inputs.txt")
+main("csvFile.csv","inputs.txt")
