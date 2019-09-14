@@ -8,7 +8,7 @@ Script to evaluate if the size of the RCM crevices are well designed to absorb t
 
 ## Inputs to the script:
 
-1. csv file (without header) and with the following columns
+1. For a **non-reactive shot** csv file (without header) and with the following columns
 * time (s), 
 * position of the piston (position(t0) = 0, position(end) = stroke) (m),
 * pressure (Pa)

@@ -91,6 +91,14 @@ def readCSV(filename, t0, tEnd, stroke):
 		[accel, time] = smooth(accel, smoothFactor, time)
 		t0 = time[np.argmax(accel>thresholdInitialTime*np.max(accel))]
 		print("\n t0 = %f" % (t0))
+		plt.plot(speed)
+		plt.show()
+		plt.plot(accel)
+		plt.show()
+		plt.plot(pressure)
+		plt.show()
+		plt.plot(time)
+		plt.show()
 		
 
 	if t0 > np.max(time) or t0 < np.min(time):
@@ -107,7 +115,8 @@ def readCSV(filename, t0, tEnd, stroke):
 		if stroke > 0:
 			position = position/(position[-1] - position[0])*stroke
 
-	#plt.plot(time, position)
+	
+
 
 	return [time, position, pressure]
 
